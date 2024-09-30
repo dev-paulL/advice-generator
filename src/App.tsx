@@ -29,6 +29,10 @@ function App() {
   useEffect(() => {
     fetchAdvice();
   }, []);
+
+  if (loading) return <div>Loading...</div>;
+  if (error) return <div>{error}</div>;
+
   return (
     <main className="bg-darkBlue min-h-screen flex items-center justify-center p-4">
       <article className="relative bg-darkGrayishBlue rounded-lg p-6 text-center flex flex-col gap-8 items-center max-w-[50rem] w-4/12">
