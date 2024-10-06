@@ -36,7 +36,7 @@ function App() {
 
   return (
     <main className="bg-darkBlue min-h-screen flex items-center justify-center p-4">
-      <article className="shadow-xl relative bg-darkGrayishBlue rounded-lg p-6 text-center flex flex-col gap-8 items-center justify-items-center max-w-[50rem] w-full md:w-[70%] lg:w-[50%]">
+      <article className="shadow-xl relative bg-darkGrayishBlue rounded-lg p-6 text-center flex flex-col gap-8 items-center justify-items-center max-w-[50rem] w-full">
         <h1
           aria-live="assertive"
           className="text-sm font-bold tracking-[.25em] uppercase text-neonGreen"
